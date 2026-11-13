@@ -23,3 +23,12 @@
 /* Clear rhythm between portfolio cases */
 .project-card+.project-card{border-top:1px solid var(--line);padding-top:30px}
 @media(min-width:768px){.project-card+.project-card{padding-top:40px}}
+
+.project-preview-full{aspect-ratio:auto;background:#151515}
+.project-preview-full img{position:static;width:100%;height:auto;border:0;border-radius:0;box-shadow:none}
+.project-preview-full+.project-caption .project-meta span{display:block}
+.project-link:hover .project-preview-full img{transform:none}
+.case-cover-full{padding:0;background:transparent}
+.case-cover-full img{width:100%;border-radius:0}
+.case-cover-full figcaption{padding:12px 0 4px;color:var(--muted);font-size:14px}
+.case-cover-full figcaption a{text-decoration:underline;text-underline-offset:3px}
