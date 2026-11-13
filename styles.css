@@ -32,3 +32,10 @@
 .case-cover-full img{width:100%;border-radius:0}
 .case-cover-full figcaption{padding:12px 0 4px;color:var(--muted);font-size:14px}
 .case-cover-full figcaption a{text-decoration:underline;text-underline-offset:3px}
+
+.presentation-note{margin:0 0 24px;color:var(--muted);font-size:14px}
+.presentation-slides{display:grid;gap:clamp(24px,4vw,48px)}
+.presentation-slide>a{display:block;border-radius:var(--radius);overflow:hidden}
+.presentation-slide img{width:100%}
+.presentation-slide figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;padding-top:10px;font-size:14px}
+.presentation-slide figcaption a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
